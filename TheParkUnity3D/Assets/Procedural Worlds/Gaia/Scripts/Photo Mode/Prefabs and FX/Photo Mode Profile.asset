@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b6a4592fcba78438bc28f2c8a0e923, type: 3}
   m_Name: Photo Mode Profile
   m_EditorClassIdentifier: 
-  m_everBeenSaved: 0
+  m_everBeenSaved: 1
   LastRenderPipeline: 0
   m_profile:
-    m_isUsingGaiaLighting: 0
-    m_selectedGaiaLightingProfile: -1
-    m_lastSceneName: Demo5
+    m_isUsingGaiaLighting: 1
+    m_selectedGaiaLightingProfile: 2
+    m_lastSceneName: Gaia Preview
     m_screenshotResolution: 0
     m_screenshotImageFormat: 2
     m_loadSavedSettings: 1
@@ -26,11 +26,11 @@ MonoBehaviour:
     m_showReticle: 0
     m_showRuleOfThirds: 0
     m_lodBias: 2
-    m_vSync: 0
+    m_vSync: 1
     m_targetFPS: -1
-    m_antiAliasing: 1
+    m_antiAliasing: 3
     m_shadowDistance: 512
-    m_shadowResolution: 3
+    m_shadowResolution: 2
     m_shadowCascades: 4
     m_fieldOfView: 60
     m_gaiaCullinDistance: 0
@@ -45,48 +45,48 @@ MonoBehaviour:
     m_gaiaWeatherRain: 0
     m_gaiaWeatherSnow: 0
     m_gaiaWindSettingsOverride: 0
-    m_gaiaWindDirection: 0
+    m_gaiaWindDirection: -0
     m_gaiaWindSpeed: 0.35
     m_gaiaTime: 15
     m_gaiaTimeOfDayEnabled: 0
     m_gaiaTimeScale: 1
     m_gaiaAdditionalLinearFog: 0
     m_gaiaAdditionalExponentialFog: 0
-    m_sunRotation: 0
-    m_sunPitch: 75
+    m_sunRotation: 240
+    m_sunPitch: 15.000004
     m_fogOverride: 0
-    m_fogMode: 2
-    m_fogColor: {r: 0, g: 0, b: 0, a: 1}
-    m_fogDensity: 0.01
-    m_fogStart: 100
-    m_fogEnd: 1000
+    m_fogMode: 3
+    m_fogColor: {r: 0.8470589, g: 0.50980395, b: 0.36078432, a: 1}
+    m_fogDensity: 0.002
+    m_fogStart: 5
+    m_fogEnd: 1300
     m_skyboxOverride: 0
-    m_skyboxRotation: 0
+    m_skyboxRotation: 240
     m_skyboxExposure: 1
-    m_skyboxTint: {r: 0, g: 0, b: 0, a: 1}
+    m_skyboxTint: {r: 0.7, g: 0.4727748, b: 0.38115174, a: 1}
     m_sunOverride: 0
-    m_sunIntensity: 1
-    m_sunColor: {r: 0, g: 0, b: 0, a: 1}
-    m_sunKelvinValue: 6500
+    m_sunIntensity: 1.9
+    m_sunColor: {r: 1, g: 0.55024546, b: 0.24998036, a: 1}
+    m_sunKelvinValue: 6570
     m_ambientIntensity: 1
-    m_ambientSkyColor: {r: 0.7027151, g: 0.881016, b: 1.001631, a: 0.4192761}
-    m_ambientEquatorColor: {r: 0.6302439, g: 0.7919513, b: 0.85, a: 0}
-    m_ambientGroundColor: {r: 0.5, g: 0.4142857, b: 0.3321428, a: 0}
+    m_ambientSkyColor: {r: 0.65, g: 0.56928104, b: 0.5522876, a: 1}
+    m_ambientEquatorColor: {r: 0.25, g: 0.20786518, b: 0.1797753, a: 1}
+    m_ambientGroundColor: {r: 0.25, g: 0.1994382, b: 0.18820225, a: 1}
     m_gaiaWaterReflectionEnabled: 1
     m_gaiaWaterReflectionDistance: 0
     m_gaiaWaterReflectionResolution: 2
     m_gaiaReflectionsLODBias: 1
     m_gaiaUnderwaterFogColor: {r: 0, g: 0, b: 0, a: 1}
-    m_gaiaUnderwaterFogDensity: 0.045
-    m_gaiaUnderwaterFogDistance: 45
+    m_gaiaUnderwaterFogDensity: 0.055
+    m_gaiaUnderwaterFogDistance: 75
     m_gaiaUnderwaterVolume: 0.5
-    m_postFXExposure: 0
+    m_postFXExposure: 1.15
     m_postFXExposureMode: 0
-    m_dofActive: 1
+    m_dofActive: 0
     m_autoDOFFocus: 1
-    m_dofFocusDistance: 100
-    m_dofAperture: 16
-    m_dofFocalLength: 50
+    m_dofFocusDistance: 41.370785
+    m_dofAperture: 8
+    m_dofFocalLength: 30
     m_dofKernelSize: 1
     m_savedDofFocusMode: 0
     m_dofFocusModeHDRP: 0
@@ -101,7 +101,7 @@ MonoBehaviour:
     m_dofMaxRadiusBlur: 1
     m_dofHighQualityURP: 0
     m_terrainDetailDensity: 0.5
-    m_terrainDetailDistance: 150
+    m_terrainDetailDistance: 190
     m_terrainPixelError: 5
     m_terrainBasemapDistance: 1024
     m_drawInstanced: 1

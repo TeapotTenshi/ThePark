@@ -25,9 +25,9 @@ MonoBehaviour:
   - 0
   - 0
   - 205
+  - 0
   - 341
   - 1024
-  - 0
   - 0
   - 0
   - 0
@@ -58,9 +58,9 @@ MonoBehaviour:
   - 
   - PW_VFX
   - PW_Object_Small
+  - whatIsGround
   - PW_Object_Medium
   - PW_Object_Large
-  - 
   - 
   - 
   - 
@@ -91,9 +91,9 @@ MonoBehaviour:
   - 0
   - 0
   - 102
+  - 0
   - 171
   - 512
-  - 0
   - 0
   - 0
   - 0

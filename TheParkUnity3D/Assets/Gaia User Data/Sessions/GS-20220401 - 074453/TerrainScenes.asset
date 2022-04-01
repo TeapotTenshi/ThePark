@@ -19,9 +19,9 @@ MonoBehaviour:
   m_colliderOnlyLoading: 0
   m_terrainTilesX: 1
   m_terrainTilesZ: 1
-  m_terrainTilesSize: 0
+  m_terrainTilesSize: 1024
   m_useFloatingPointFix: 0
-  m_hasWorldMap: 0
+  m_hasWorldMap: 1
   m_worldMaprelativeSize: 0.5
   m_worldMapRelativeHeightmapPixels: 1
   m_worldMapPreviewHeightmapResolution: 2049

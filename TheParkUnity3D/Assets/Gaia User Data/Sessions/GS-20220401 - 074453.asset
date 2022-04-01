@@ -23,18 +23,103 @@ MonoBehaviour:
   m_terrainWidth: 1024
   m_terrainDepth: 1024
   m_terrainHeight: 1024
-  m_seaLevel: 25
+  m_seaLevel: 50
   m_spawnDensity: 0.8
   m_isLocked: 0
   m_previewImageBytes: 
   m_previewImageWidth: 0
   m_previewImageHeight: 0
-  m_operations: []
+  m_operations:
+  - m_description: Clear World
+    m_operationType: 10
+    m_isActive: 1
+    m_affectedTerrainNames: []
+    m_operationDateTime: 4/1/2022 7:58:52 AM
+    scriptableObjectAssetGUID: 
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: 'Creating World: 1 x 1 tiles, tile size: 1024'
+    m_operationType: 0
+    m_isActive: 1
+    m_affectedTerrainNames: []
+    m_operationDateTime: 4/1/2022 7:58:53 AM
+    scriptableObjectAssetGUID: cf70b594f931f2847994ed4cf81c8a99
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (7)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20220401 - 075852
+    m_operationDateTime: 4/1/2022 7:59:29 AM
+    scriptableObjectAssetGUID: 02acf7f8b516cce45ab3d04602006603
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: 'Updating World To: 1 x 1 tiles, tile size: 2048'
+    m_operationType: 14
+    m_isActive: 1
+    m_affectedTerrainNames: []
+    m_operationDateTime: 4/1/2022 8:10:00 AM
+    scriptableObjectAssetGUID: 7d80a00e07550184894dd6e85bad84ea
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (7)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20220401 - 075852
+    m_operationDateTime: 4/1/2022 8:28:22 AM
+    scriptableObjectAssetGUID: 357fa0a904a9dab47adcdff131db533f
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
   m_terrainMinMaxCache:
+  - guid: 685f9a510d4edfa4c82108333c47d649
+    isWorldmap: 0
+    recalculate: 0
+    min: 0
+    max: 121.626854
   - guid: Worldmap
     isWorldmap: 1
     recalculate: 0
     min: 0
     max: 0
-  m_bakedMaskCacheEntries: []
+  m_bakedMaskCacheEntries:
+  - fileName: Terrain_0_0-20220401 - 075852_LayerGameObject_6656_12
+    assetPath: Assets/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20220401
+      - 075852/Terrain_0_0-20220401 - 075852_LayerGameObject_6656_12
+    fullPath: C:/Users/Tomme/Documents/GitHub/ThePark/TheParkUnity3D/Assets/Procedural
+      Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20220401 - 075852/Terrain_0_0-20220401
+      - 075852_LayerGameObject_6656_12
+    texture: {fileID: 0}
+  - fileName: Terrain_0_0-20220401 - 075852_LayerTree_6656_5
+    assetPath: Assets/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20220401
+      - 075852/Terrain_0_0-20220401 - 075852_LayerTree_6656_5
+    fullPath: C:/Users/Tomme/Documents/GitHub/ThePark/TheParkUnity3D/Assets/Procedural
+      Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20220401 - 075852/Terrain_0_0-20220401
+      - 075852_LayerTree_6656_5
+    texture: {fileID: 0}
+  - fileName: Terrain_0_0-20220401 - 075852_LayerGameObject_6656_5
+    assetPath: Assets/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20220401
+      - 075852/Terrain_0_0-20220401 - 075852_LayerGameObject_6656_5
+    fullPath: C:/Users/Tomme/Documents/GitHub/ThePark/TheParkUnity3D/Assets/Procedural
+      Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20220401 - 075852/Terrain_0_0-20220401
+      - 075852_LayerGameObject_6656_5
+    texture: {fileID: 0}
+  - fileName: Terrain_0_0-20220401 - 075852_LayerGameObject_6656_0.5
+    assetPath: Assets/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20220401
+      - 075852/Terrain_0_0-20220401 - 075852_LayerGameObject_6656_0.5
+    fullPath: C:/Users/Tomme/Documents/GitHub/ThePark/TheParkUnity3D/Assets/Procedural
+      Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20220401 - 075852/Terrain_0_0-20220401
+      - 075852_LayerGameObject_6656_0.5
+    texture: {fileID: 0}
   m_worldBiomeMaskSettings: {fileID: 0}

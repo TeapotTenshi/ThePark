@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/second.unity
+    guid: ddb0c73ae4b581744b3d9ac3ee315228
+  - enabled: 1
+    path: 
+    guid: 2f2352f8c58ad54458fdc3081263097b
+  - enabled: 1
+    path: Assets/Scenes/Gaia Preview.unity
+    guid: 683bd3de34768b24baad30a0e593653b
+  - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: a4da9e75ceb91ac44a72f798a59cf6a5
   - enabled: 1
