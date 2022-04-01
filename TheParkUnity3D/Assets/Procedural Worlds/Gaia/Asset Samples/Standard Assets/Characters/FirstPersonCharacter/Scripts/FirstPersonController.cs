@@ -27,6 +27,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [SerializeField] private AudioClip[] m_FootstepSounds = new AudioClip[0];    // an array of footstep sounds that will be randomly selected from.
         [SerializeField] private AudioClip m_JumpSound = null;           // the sound played when character leaves the ground.
         [SerializeField] private AudioClip m_LandSound = null;           // the sound played when character touches back on ground.
+        
+        /*
+        [SerializeField] private float slopeSpeed = 8f;
+        [SerializeField] private bool WillSlideOnSlopes = true;
+        */
 
         private Camera m_Camera;
         private bool m_Jump = true;
@@ -41,6 +46,26 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private float m_NextStep = 0f;
         private bool m_Jumping = false;
         private AudioSource m_AudioSource = new AudioSource();
+
+        /*
+        private Vector3 hitPointNormal; 
+
+        private bool IsSliding
+        {
+            get 
+            {
+                Debug.DrawRay(transform.position, Vector3.down, Color.red);
+                if(CharacterController.isGrounded && Physics.Raycast(transform.position, Vector3.down, out RaycastHit slopeHit, 2f))
+                {
+                    hitPointNormal = slopeHit.normal;
+                    return Vector3.Angle(hitPointNormal, Vector3.up) > CharacterController.slopeLimit;
+                } else 
+                {
+                    return false;
+                }
+            }
+        }
+        */
 
         // Use this for initialization
         private void Start()
@@ -81,6 +106,14 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
 
             m_PreviouslyGrounded = m_CharacterController.isGrounded;
+
+            /*
+            if(WillSlideOnSlopes && IsSliding)
+            {
+                moveDirection = new Vector3(hitPointNormal.x, -hitPointNormal.y, hitPointNormal.z);
+            }
+            */
+                
         }
 
 
