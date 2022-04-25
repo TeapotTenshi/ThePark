@@ -84,9 +84,9 @@ MonoBehaviour:
     value: 7
   anamorphicRatio:
     overrideState: 0
-    value: 0
+    value: -0.02
   color:
-    overrideState: 0
+    overrideState: 1
     value: {r: 1, g: 1, b: 1, a: 1}
   fastMode:
     overrideState: 0
@@ -120,7 +120,7 @@ MonoBehaviour:
     defaultState: 1
   intensity:
     overrideState: 1
-    value: 0.771
+    value: 1
   fastMode:
     overrideState: 0
     value: 0
@@ -141,14 +141,14 @@ MonoBehaviour:
     overrideState: 1
     value: 1
   colored:
-    overrideState: 0
+    overrideState: 1
     value: 1
   intensity:
     overrideState: 1
-    value: 0.9
+    value: 0.485
   size:
-    overrideState: 0
-    value: 1
+    overrideState: 1
+    value: 1.56
   lumContrib:
-    overrideState: 0
-    value: 0.8
+    overrideState: 1
+    value: 0
