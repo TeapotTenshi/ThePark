@@ -42,6 +42,6 @@ Material:
     - _WaveSteepness: 0.1
     m_Colors:
     - _EdgeWaterColor: {r: 0.09999994, g: 0.09999994, b: 0.19999993, a: 1}
-    - _UnderWaterColor: {r: 1, g: 0.86903584, b: 0.8074487, a: 1}
+    - _UnderWaterColor: {r: 0.42169428, g: 0.57919383, b: 1, a: 1}
     - _WaveDirection: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
